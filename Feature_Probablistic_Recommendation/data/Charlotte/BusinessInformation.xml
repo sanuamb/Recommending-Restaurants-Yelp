@@ -1,0 +1,1497 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="yelp_data">
+	<table_structure name="business_temp">
+		<field Field="id" Type="varchar(22)" Null="NO" Key="PRI" Extra="" Comment="" />
+		<field Field="name" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="neighborhood" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="stars" Type="float" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="business_temp" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="247" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="business_temp" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="247" Avg_row_length="198" Data_length="49152" Max_data_length="0" Index_length="0" Data_free="0" Create_time="2017-12-02 00:32:24" Update_time="2017-12-02 00:32:46" Collation="utf8_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="business_temp">
+	<row>
+		<field_business_id>--cZ6Hhc9F7VkKXxHMVZSQ</field_business_id>
+		<field_name>Pio Pio</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>-aMC2Dy2rqHicz9HjmXimA</field_business_id>
+		<field_name>Mattie's Diner</field_name>
+		<field_neighborhood>Third Ward</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>-I27yVw2x_-31_OOMSH02w</field_business_id>
+		<field_name>Local Loaf</field_name>
+		<field_neighborhood>First Ward</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>01fuY2NNscttoTxOYbuZXw</field_business_id>
+		<field_name>Pinky's Westside Grill</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>10tJuB_YkVQWuk4PtoI7iA</field_business_id>
+		<field_name>Intermezzo Pizzeria and Cafe</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>110iMPMPEEjFlf8HKVq84g</field_business_id>
+		<field_name>131 Main</field_name>
+		<field_neighborhood>Ballantyne</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>1bXC3NewRsBL1gecvGXA-g</field_business_id>
+		<field_name>Jackalope Jacks</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>1FlIbmN4aNJuXsGK0shnfQ</field_business_id>
+		<field_name>Leroy Fox</field_name>
+		<field_neighborhood>Cotswold</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>1Geg7R5ACFL0oassVziNiQ</field_business_id>
+		<field_name>Crispy Crepe</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>1MvR4NJQbHy0i7ME1IoYpw</field_business_id>
+		<field_name>Beef 'N Bottle</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>1WtUgLhdBdQ39aBvEUbsnw</field_business_id>
+		<field_name>Akahana Asian Bistro</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>1_jvFRQjcRVfd9LdOLvI8A</field_business_id>
+		<field_name>Rí Rá Irish Pub</field_name>
+		<field_neighborhood>First Ward</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>22MYhTXwSXaS4rW2VOrR-w</field_business_id>
+		<field_name>Jasmine Grill</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>2S6p5ICNswz_EdgcZk76qQ</field_business_id>
+		<field_name>Duckworth's Grill &amp; Taphouse</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>2um9bzTSvD3f2tkdBoA38g</field_business_id>
+		<field_name>Kid Cashew</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>3CG7oBD_k85M8jJ_JlhL-A</field_business_id>
+		<field_name>The Penguin Drive-In</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>3ma_7W3vZSD2fd6EosN3yQ</field_business_id>
+		<field_name>Big Ben British Restaurant &amp; Pub</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>3vkP6t_kKN3JT8MMUaBVEA</field_business_id>
+		<field_name>Original Pancake House</field_name>
+		<field_neighborhood>Myers Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>4vDffQ7eSQ7n39cyroOSKQ</field_business_id>
+		<field_name>Crave Dessert Bar</field_name>
+		<field_neighborhood>Third Ward</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>50pDd3dmJCb6m9JxBUq7KA</field_business_id>
+		<field_name>The Olde Mecklenburg Brewery</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>5CtxJzh1dVC6AkWPzGvW2g</field_business_id>
+		<field_name>TEN Park Lanes</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>5fquJHY2hMX9tPRD5s0t5g</field_business_id>
+		<field_name>Rooster's Uptown</field_name>
+		<field_neighborhood>First Ward</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>5q6Xh-UcJa78bp6dzyaE7w</field_business_id>
+		<field_name>Duck Donuts</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>6kq9oLduJAYkb2WjAb36KA</field_business_id>
+		<field_name>Le's Sandwiches &amp; Cafe</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>6lovZEiwWcRYRhyKd94DRg</field_business_id>
+		<field_name>Smashburger</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>6zi7dAlnk7vgvlGbUMoKkA</field_business_id>
+		<field_name>Maverick Rock Taco</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>749MsdV9v1SijXaLrY23pw</field_business_id>
+		<field_name>Dean &amp; DeLuca</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>8nmjvYX4N67cxOsGfbEgjg</field_business_id>
+		<field_name>Studio Movie Grill</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>2.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>8rIDfnWHSo-K0Xb9Y1gjrA</field_business_id>
+		<field_name>The Improper Pig</field_name>
+		<field_neighborhood>Cotswold</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>8yEFijvcNQ9JIGVWc3EgUw</field_business_id>
+		<field_name>Central Coffee Company</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>9dqdzRzjSfbnMvjUGqWBAw</field_business_id>
+		<field_name>Midnight Diner</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>9_onoqwv9ZdItxc8OlUKAg</field_business_id>
+		<field_name>Customshop Handcrafted Food</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>a1v8QIdbA_HTg_YyNlBY_w</field_business_id>
+		<field_name>Sushi 101</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>a2h9nrVMpNvfwMBo1e8ffg</field_business_id>
+		<field_name>The Fillmore Charlotte</field_name>
+		<field_neighborhood>Third Ward</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>AAekuF59Qr84gAh18o9njg</field_business_id>
+		<field_name>Savor Cafe &amp; Catering</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>aBLx9JlAMq_AuW6VAImSwg</field_business_id>
+		<field_name>Zada Jane's Corner Cafe</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>Abm-1HRGPyevBtnC3Rpxag</field_business_id>
+		<field_name>Rock Bottom Restaurant &amp; Brewery</field_name>
+		<field_neighborhood>Fourth Ward</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>Ac52FTELfKifOWT4WOafpQ</field_business_id>
+		<field_name>Blue Restaurant &amp; Bar</field_name>
+		<field_neighborhood>First Ward</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>ADgacmZ-qXrSOhMfU6bmTA</field_business_id>
+		<field_name>5Church</field_name>
+		<field_neighborhood>Fourth Ward</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>aE-02jgBVhV56x0kbfvSIA</field_business_id>
+		<field_name>Yafo Kitchen</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>aIJqDWUt10iS45zYCr0KcQ</field_business_id>
+		<field_name>Thai Taste</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>ALwAlxItASeEs2vYAeLXHA</field_business_id>
+		<field_name>Futo Buta</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>aO1gAp41n8w8zpxTiHdLNA</field_business_id>
+		<field_name>Mert's Heart &amp; Soul</field_name>
+		<field_neighborhood>First Ward</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>ApAzthiFRKuL-yJo1HMFvQ</field_business_id>
+		<field_name>Dilworth Neighborhood Grille</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>apMG3W6-qpHIuo4ApZy3IA</field_business_id>
+		<field_name>Bricktop's Restaurant</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>AuIiqDeL65kczmiFSkAWrA</field_business_id>
+		<field_name>Maggiano's Little Italy</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>Ava9H-t4scVmP7u_onh7pg</field_business_id>
+		<field_name>Napa on Providence</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>AY4qBdRtkShnjiPTdlxw_A</field_business_id>
+		<field_name>Big View Diner</field_name>
+		<field_neighborhood>Ballantyne</field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>B1imfnKRvcotaYacPGUrLQ</field_business_id>
+		<field_name>Carpe Diem</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>b42EKdSk61zd_FEqEwioYQ</field_business_id>
+		<field_name>Upstream</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>b8fEuQPrf383f6pzdm8-1w</field_business_id>
+		<field_name>Vida Mexican Kitchen y Cantina</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>bcTeQtSdHW5pyLjXz05QEg</field_business_id>
+		<field_name>Fran's Filling Station</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>bcTwvbD5wfMSgSO-YczLYw</field_business_id>
+		<field_name>The Workman's Friend</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>bfVpHvjir2G2Z9wVeddw4w</field_business_id>
+		<field_name>The Olde Mecklenburg Brewery</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>bgvm73MMjC2f5qo_RgXOXg</field_business_id>
+		<field_name>Halcyon</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>bm_PGQMGMjylitqkNIEzTw</field_business_id>
+		<field_name>Vivace</field_name>
+		<field_neighborhood>Myers Park</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>bQPMEI9yMakI4GD2jVS9jw</field_business_id>
+		<field_name>Burger 21</field_name>
+		<field_neighborhood>Ballantyne</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>buacGSEw8yLGJo8g-i02wg</field_business_id>
+		<field_name>Pisces Sushi Bar &amp; Lounge</field_name>
+		<field_neighborhood>Myers Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>bXbCGFk3ZjLcTdQQB-xPyQ</field_business_id>
+		<field_name>Luciano's Ristorante Italiano</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>bzbNGyrTwWHAgg1CqkSgeg</field_business_id>
+		<field_name>Stewart Penick's Terrace - SouthPark</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>bZtukyhyV1oVmUU3yRBPbQ</field_business_id>
+		<field_name>Smelly Cat Coffee</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>c4KXpCou6HBOgfKp2z2_hw</field_business_id>
+		<field_name>Stewart Penick's Terrace - Ballantyne</field_name>
+		<field_neighborhood>Ballantyne</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>c6-5RCj8FtV-m1aHz4wnmQ</field_business_id>
+		<field_name>Saigon Palace</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>Cdk3wRR7TwJb1JW7agPJXw</field_business_id>
+		<field_name>Pint Central</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>Ch7NAhB_MWSDwcNbcptEKg</field_business_id>
+		<field_name>Mimosa Grill</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>csf6o4VOiXk0oZaoyMiCww</field_business_id>
+		<field_name>The Thirsty Beaver</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>cwCLcQns_SSExsBCzWNQDA</field_business_id>
+		<field_name>Phat Burrito</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>CxsN79g8rZoouLwZvr_FVg</field_business_id>
+		<field_name>Fern</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>D-RQsQjEVI_w-KC7iDJd5Q</field_business_id>
+		<field_name>Cuisine Malaya</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>D2ojX9bvE0_-aIj9BhdZZA</field_business_id>
+		<field_name>300 East</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>d8lmIZIqmBC9oPM8y1dc7Q</field_business_id>
+		<field_name>Paco's Tacos &amp; Tequila</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>DyOzNIeXUksPNLXYHnB-oQ</field_business_id>
+		<field_name>Sabor Latin Street Grill</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>E0HOsxXZ_o6ocemK57BoWA</field_business_id>
+		<field_name>A Piece Of Havana</field_name>
+		<field_neighborhood>Steele Creek</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>E0TK141YMBP0LBknhVKEqw</field_business_id>
+		<field_name>Crêpe Cellar</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>E3BTs8yFlVbZd20TknY00A</field_business_id>
+		<field_name>Jim 'N Nick's Bar-B-Q</field_name>
+		<field_neighborhood>Steele Creek</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>e9sB72njxz87r5TL6kG-Fw</field_business_id>
+		<field_name>Cowbell Burger &amp; Whiskey Bar</field_name>
+		<field_neighborhood>Fourth Ward</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>eAZqT24e0Pk8apWzy3RsAQ</field_business_id>
+		<field_name>McKoy's Smokehouse &amp; Saloon</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>EbgUkmDxPUa2fr0rc8EFJQ</field_business_id>
+		<field_name>P.F. Chang's</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>eCeFBHucdjbZkJlry8EALw</field_business_id>
+		<field_name>Papi Queso</field_name>
+		<field_neighborhood>Third Ward</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>EvWGuX0eqKcZvLRgtIFHZg</field_business_id>
+		<field_name>Eddie's Place</field_name>
+		<field_neighborhood>Cotswold</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>ExtP8z3SVyut_RICc9i_DA</field_business_id>
+		<field_name>Zeitouni Grill</field_name>
+		<field_neighborhood>Ballantyne</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>eZDXz_RylvdD0tHEA8I0NA</field_business_id>
+		<field_name>New Zealand Cafe</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>F1odkZWmcXGylij8HjRq6Q</field_business_id>
+		<field_name>VBGB Beer Hall and Garden</field_name>
+		<field_neighborhood>Third Ward</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>f316rUVOmOM2VidXN2KAvg</field_business_id>
+		<field_name>131 Main</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>FBSWwaE6gR7KAOyG1QhakQ</field_business_id>
+		<field_name>Block &amp; Grinder</field_name>
+		<field_neighborhood>Sherwood Forest</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>FGy4UJ1Qri_KruPZiPmWYQ</field_business_id>
+		<field_name>Viva Chicken</field_name>
+		<field_neighborhood>Ballantyne</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>FKOF8_OMvoPoDHOplDd7tQ</field_business_id>
+		<field_name>Kickstand Burgers &amp; Bar</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>fnxKfHf-ANBph4EqVARvQQ</field_business_id>
+		<field_name>Trader Joe's</field_name>
+		<field_neighborhood>Myers Park</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>foD6m1lhxAAfNEHdUbBpOA</field_business_id>
+		<field_name>Freedom Park</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>fzRxHv7XnnDqTmX25tVbJg</field_business_id>
+		<field_name>Taco Mac</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>2.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>g-E12y45gBKedax5N20YmQ</field_business_id>
+		<field_name>The Burrito Factory</field_name>
+		<field_neighborhood>Starmount</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>gChmBjLSe3qa8rzEngoDLQ</field_business_id>
+		<field_name>Fahrenheit</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>gG9z6zr_49LocyCTvSFg0w</field_business_id>
+		<field_name>Amélie's French Bakery</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>gGt00WW8sNY2Sop7jYa7Tw</field_business_id>
+		<field_name>Bakersfield East Blvd</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>gJttMZnv0Gy9OlLhNzPbQQ</field_business_id>
+		<field_name>Little Spoon</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>gOOdzjVxP7Z7bGjsstRjcw</field_business_id>
+		<field_name>Flying Saucer Draught Emporium</field_name>
+		<field_neighborhood>University City</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>gwd1W_0Mgzqo3QxgXrt16Q</field_business_id>
+		<field_name>RuRu's Tacos + Tequila</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>G_LtZnL66Iwama_7_FCLUQ</field_business_id>
+		<field_name>Baku</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>h6f3QbR0n0fpS2Tu9MJJTw</field_business_id>
+		<field_name>Viet-Thai Noodle House</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>H9a6IRS0edhW343Y2kXSSA</field_business_id>
+		<field_name>The Liberty</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>hggVnGwA5042-ABxqeJX-A</field_business_id>
+		<field_name>Good Food on Montford</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>hVLFDDA31wYm3Jjz3w74GA</field_business_id>
+		<field_name>Duckworth's Grill &amp; Taphouse</field_name>
+		<field_neighborhood>Ballantyne</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>I6Xa5eF9Jv9VM6ms_dkY8A</field_business_id>
+		<field_name>Ilios Noche</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>ICUCAzUZFiWkYs7iCtNCQg</field_business_id>
+		<field_name>Copper</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>IE0QRqaUSW51RmShZ9dX1Q</field_business_id>
+		<field_name>TIN Kitchen</field_name>
+		<field_neighborhood>Third Ward</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>IGxxnH4Q2S2y_ZdFFW469w</field_business_id>
+		<field_name>Triple C Brewing Company</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>iJpTpE9A8WDWvUlvUcFZuA</field_business_id>
+		<field_name>Brio Coastal Bar and Kitchen</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>Iyt5sJVjyCvVS2p8Xw0I6A</field_business_id>
+		<field_name>Zoës Kitchen</field_name>
+		<field_neighborhood>Myers Park</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>J3_FTjy9LAtTtoW_cLwPxg</field_business_id>
+		<field_name>CO</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>jcasci3gjbsSuTEVzvDQKg</field_business_id>
+		<field_name>Mama Ricotta's Restaurant</field_name>
+		<field_neighborhood>Myers Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>JogUSDKa1xyG3lLEmD4Xjg</field_business_id>
+		<field_name>Fiamma</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>JQ4E1Im1dHMpDa1s4vJMoQ</field_business_id>
+		<field_name>Woodlands</field_name>
+		<field_neighborhood>Eastland</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>jXHmmircEbhQmZjWDR1xIA</field_business_id>
+		<field_name>Bistro La Bon</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>jYqOPpSmtKbKzf0Z_g-Oyg</field_business_id>
+		<field_name>Flying Biscuit Cafe- Charlotte</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>k-drEjxKmfqllwfY90STfA</field_business_id>
+		<field_name>Cantina 1511</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>K3iw26MkmSBPAM7BzHkIYQ</field_business_id>
+		<field_name>Yama Asian Fusion</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>KbLI0QELlAwbfDUVwo43DQ</field_business_id>
+		<field_name>Cajun Yard Dog</field_name>
+		<field_neighborhood>Arboretum</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>KEGLWeFAWXvo0W2LnujhtQ</field_business_id>
+		<field_name>Lang Van Vietnamese</field_name>
+		<field_neighborhood>Eastland</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>kfFRCUP1RXY_jNnBQCOsEw</field_business_id>
+		<field_name>Whole Foods Market Charlotte</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>kPfhSK0kcUmOTmC5DEjaDw</field_business_id>
+		<field_name>Doan's</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>kRhjWeAPs-U5RmakIKz0Pg</field_business_id>
+		<field_name>Tyber Creek Pub</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>l3jXlEDlVfKj_ECpU7tobA</field_business_id>
+		<field_name>Draught</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>L8rJht4Jw_BuR8gsckEWYg</field_business_id>
+		<field_name>The Cheesecake Factory</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>LIvXzdMJrIb6IY5Y3tqicA</field_business_id>
+		<field_name>Nan and Byron's</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>LQI8R7yYXmWzWKd7wLCf2Q</field_business_id>
+		<field_name>Dish</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>LUZ94dZpgCmBGyNH52S7lg</field_business_id>
+		<field_name>Essex Bar &amp; Bistro</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>M0pkmBUi_CI0qrzN7ee80Q</field_business_id>
+		<field_name>Amélie's French Bakery &amp; Café</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>M10n-ivjDkkdLaxIYNafFQ</field_business_id>
+		<field_name>Queen City Q</field_name>
+		<field_neighborhood>First Ward</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>mC39IrCp36QIVFRZIw9PTQ</field_business_id>
+		<field_name>Seoul Food Meat Company</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>ME6D5nLlfG0xZCtICOYDuw</field_business_id>
+		<field_name>Georges Brasserie</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>mOMeDQB8NjdBTTzKtikAYg</field_business_id>
+		<field_name>The Roasting Company</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>MQEpDvkdL39hh1N0We3Vaw</field_business_id>
+		<field_name>Hot Taco</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>2.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>MrSHPvHVdE_VzVN7iRz45Q</field_business_id>
+		<field_name>Enso Asian Bistro &amp; Sushi Bar</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>MtvN8vMiKcLkkz_tCvBx3g</field_business_id>
+		<field_name>Aria</field_name>
+		<field_neighborhood>First Ward</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>n-AQFKbW6MnpamdtA6ECpQ</field_business_id>
+		<field_name>Cinebarre - Arboretum 11</field_name>
+		<field_neighborhood>Arboretum</field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>NbrXg59fYR3MoeXdeAIQIQ</field_business_id>
+		<field_name>Pike's Old Fashioned Soda Shop</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>nEQFnHydeX2A3bRRDAKqQg</field_business_id>
+		<field_name>Chuy's</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>NFm869_w6cvVaWaNpAzjeA</field_business_id>
+		<field_name>Soul Gastrolounge</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>NI3xvN6p0qhvUkKirbKokA</field_business_id>
+		<field_name>Original Pancake House</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>NIfmK27zNuQbawNwEvpRtg</field_business_id>
+		<field_name>Charlotte Regional Farmers Market</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>nMo0ozHO7cqsPaxw_7N6ow</field_business_id>
+		<field_name>Dim Sum Chinese Restaurant</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>NMO1hExBvamoZ9RKEVNcYg</field_business_id>
+		<field_name>McCormick &amp; Schmick's Seafood &amp; Steaks</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>nmOJhPW62nCiuXHJuWooIg</field_business_id>
+		<field_name>Spectrum Center</field_name>
+		<field_neighborhood>First Ward</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>npWIa3dIPEV1MTaZNq6AUA</field_business_id>
+		<field_name>Firebirds Wood Fired Grill</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>NvyjzqSF55Ghe3GrIIYEcw</field_business_id>
+		<field_name>Brixx Wood Fired Pizza</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>NwWYSYGHFyHQMmsXu0SiYA</field_business_id>
+		<field_name>The Burger Company</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>ny8YcGEViSGKWxo69xfiiA</field_business_id>
+		<field_name>Sauceman's</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>o5QDrg_kb4hgsWxV6cV_Uw</field_business_id>
+		<field_name>The Flying Biscuit Cafe - Charlotte</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>ObcMSGc1uotvpnwydoStIg</field_business_id>
+		<field_name>Earl's Grocery</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>ofpuVYCw6VCkybFVIdwYEQ</field_business_id>
+		<field_name>Poppy's Bagels &amp; More</field_name>
+		<field_neighborhood>Sherwood Forest</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>osSwv6CJy5hDKQdOKeyTow</field_business_id>
+		<field_name>Ru San's</field_name>
+		<field_neighborhood>Sedgefield</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>Oy2WnPyiOlPFvPKMIuOC8w</field_business_id>
+		<field_name>Tin Tin</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>2.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>OYB1niC3P2qP8Jf0bigB7A</field_business_id>
+		<field_name>Chipotle Mexican Grill</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>P9xoO-WxaazIMQI7grYUwg</field_business_id>
+		<field_name>Menchie's Frozen Yogurt</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>PdCxX1QJnlBkvnG9fFjWYg</field_business_id>
+		<field_name>Sunflour Baking Company</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>PHhZy5zYULNF-oz-2Jz9KA</field_business_id>
+		<field_name>Mellow Mushroom</field_name>
+		<field_neighborhood>Ballantyne</field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>PqcOSnCsJTT9Yd2xWKIMWw</field_business_id>
+		<field_name>La Shish Kabob</field_name>
+		<field_neighborhood>Eastland</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>pzy9xWQqsDxVU6j9MktRJg</field_business_id>
+		<field_name>Azteca Mexican Restaurant</field_name>
+		<field_neighborhood>Starmount</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>QAHqplESgDUGgih45W9J-g</field_business_id>
+		<field_name>Dressler's - Charlotte</field_name>
+		<field_neighborhood>Myers Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>QCUjHPu7OF_bqfjnehlQaQ</field_business_id>
+		<field_name>Nolen Kitchen</field_name>
+		<field_neighborhood>Myers Park</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>QeDkfLmXVguytF3Of9zg-Q</field_business_id>
+		<field_name>Boudreaux's Louisiana Kitchen</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>QFqtVX-lyZQgVHQrG-dhlg</field_business_id>
+		<field_name>Diamond Restaurant</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>QH2OSulslnQ7Yn8Xs81SPg</field_business_id>
+		<field_name>Growlers Pourhouse</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>QlIW78umKyE5d0BLpPh1-w</field_business_id>
+		<field_name>Mr. K's Soft Ice Cream &amp; Drive In</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>QnCBkwWiu19YPNnSDyF6eA</field_business_id>
+		<field_name>Super G Mart</field_name>
+		<field_neighborhood>Eastland</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>qWSwDbtJRBvKTiMpH3rNLQ</field_business_id>
+		<field_name>Deejai Thai</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>RAh9WCQAuocM7hYM5_6tnw</field_business_id>
+		<field_name>The Cowfish Sushi Burger Bar</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>RbMo9QIPDWP7nAAolS7IFA</field_business_id>
+		<field_name>Kennedy's Premium Bar and Grill</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>RcB7STNxoSDjtoK1pXgWBg</field_business_id>
+		<field_name>The Blue Taj</field_name>
+		<field_neighborhood>Ballantyne</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>Rjkda__H64ILwIvaccVyLg</field_business_id>
+		<field_name>Blaze Fast-Fire'd Pizza</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>RNO7SRmfVi0CyXjtPhXELg</field_business_id>
+		<field_name>Mellow Mushroom</field_name>
+		<field_neighborhood>Myers Park</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>rNoMSO6AsegKb9-p6Ir7SQ</field_business_id>
+		<field_name>Thomas Street Tavern</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>RVQE2Z2uky4c0-njFQO66g</field_business_id>
+		<field_name>Midwood Smokehouse</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>rZOzhSA5HP6IdpxuN4v66w</field_business_id>
+		<field_name>Nikko Japanese Restaurant &amp; Sushi Bar</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>S3kcGHznDcyzsxkOhSZeLg</field_business_id>
+		<field_name>Crisp</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>s6lTNO57vXsfzyYrPfXOvA</field_business_id>
+		<field_name>Vietnam Grille</field_name>
+		<field_neighborhood>Starmount</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>s8OLoPfOpB0FbK5frI3CkQ</field_business_id>
+		<field_name>The Peculiar Rabbit</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>sAXy1yJRLllTm5WrJbJGAA</field_business_id>
+		<field_name>Del Frisco's Double Eagle Steak House</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>sdYkVaTy7EJwUkO8Ie_qPg</field_business_id>
+		<field_name>Viva Chicken</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>sH3UsolKjik01u0HlQ9_0Q</field_business_id>
+		<field_name>Three Amigos Mexican Restaurant and Cantina</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>SHFlELFcEcAOJv_fTAKChQ</field_business_id>
+		<field_name>Dandelion Market</field_name>
+		<field_neighborhood>Fourth Ward</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>T2tEMLpTeSMxLKpxwFdS3g</field_business_id>
+		<field_name>Cabo Fish Taco</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>tCSlpwJQ4CZsUEMZeH2SFg</field_business_id>
+		<field_name>Cafe Monte</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>the19uDwR-41n8x861F7Hg</field_business_id>
+		<field_name>Zen Asian Fusion</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>tInrGCzll4k9hF34Ye1rvQ</field_business_id>
+		<field_name>Chima  Steakhouse</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>tjAeaGdxf7I4xN9M7wGJNQ</field_business_id>
+		<field_name>Pure Pizza</field_name>
+		<field_neighborhood>First Ward</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>TLWZK8NIpn4zI4_yut-q6Q</field_business_id>
+		<field_name>Luna's Living Kitchen</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>tMlVZWa4SsI01qYMRQerKg</field_business_id>
+		<field_name>7th Street Public Market</field_name>
+		<field_neighborhood>First Ward</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>tNxGH0dYx_JinTxnwwjZUA</field_business_id>
+		<field_name>Sycamore Brewing</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>trodK1jXLGIn5qjJCooIpQ</field_business_id>
+		<field_name>Rooster's at Southpark</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>TxQBdyDktZSk1KVTWh71dw</field_business_id>
+		<field_name>Babalu Tapas &amp; Tacos</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>TZmMsbw5TbRqv8rmKj_aGg</field_business_id>
+		<field_name>The Common Market</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>U3kygJOTlTQFlfaZS7sQjA</field_business_id>
+		<field_name>JJ's Red Hots</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>UAU1aSlqgrZwZ847npH37w</field_business_id>
+		<field_name>Tavern On The Tracks</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>UByM7N0mF-ylIGUuIWHCtA</field_business_id>
+		<field_name>Sullivan's Steakhouse</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>uDb1lOfDhl_VLmAbYvp-vQ</field_business_id>
+		<field_name>Benny Pennello's</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>uGzxwS3Q6QuyFw2ZnDvw0w</field_business_id>
+		<field_name>JackBeagles</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>USleI8g1UVN9-9jm-b4uIg</field_business_id>
+		<field_name>The Fig Tree Restaurant</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>UzsXZoePcmt6RWo00qNNAw</field_business_id>
+		<field_name>Carolina Ale House</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>V1cWGBZLQLyIiyo0iUOnyg</field_business_id>
+		<field_name>Not Just Coffee - 7th Street</field_name>
+		<field_neighborhood>First Ward</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>v4HpZFOU3mvIeuHLRSIi7g</field_business_id>
+		<field_name>Bahn Thai</field_name>
+		<field_neighborhood>Ballantyne</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>vBNM4NEBuO66Hk5yO797eA</field_business_id>
+		<field_name>Lupie's Cafe</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>VeFqptSzekFAc3FZOpi81Q</field_business_id>
+		<field_name>Alexander Michael's</field_name>
+		<field_neighborhood>Fourth Ward</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>VH3WA7a-OVzFj2K_SP4BIw</field_business_id>
+		<field_name>The King's Kitchen</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>vqG1Z2XpS_PryPsfY0CSng</field_business_id>
+		<field_name>The Capital Grille</field_name>
+		<field_neighborhood>Fourth Ward</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>vs99Jj_kVyuRtDl7rxXH2Q</field_business_id>
+		<field_name>Greek Isles</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>VwvIq1dyWje3j1i7lp-8sA</field_business_id>
+		<field_name>Firebirds Wood Fired Grill</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>vxadNrpTY7OHNmWsrEpNnA</field_business_id>
+		<field_name>Landmark Diner Restaurant</field_name>
+		<field_neighborhood>Eastland</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>V_VQ9BgbLEzL9mPLQQlc6g</field_business_id>
+		<field_name>The Loco Lime</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>w3PwDEbI0EDx4YI_BkFhIA</field_business_id>
+		<field_name>Portofino's</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>WAmCIDi3qn2VI7OUqZfjYQ</field_business_id>
+		<field_name>Solstice Tavern</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>wArcCMVnrl_tc9MULW-0CQ</field_business_id>
+		<field_name>Heist Brewery</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>WbJ1LRQdOuYYlRLyTkuuxw</field_business_id>
+		<field_name>Tupelo Honey</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>WCqcYtJ4rUxA4bIzjOfzqg</field_business_id>
+		<field_name>Vapiano</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>wiEQrYSNofc10q7Pm26b0w</field_business_id>
+		<field_name>The Common Market</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>wJnhUJCOYkncLPZAwaMffA</field_business_id>
+		<field_name>Room 112</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>wkZ6P5fDw0G_iFRU-hzBhQ</field_business_id>
+		<field_name>The Pizza Peel</field_name>
+		<field_neighborhood>Cotswold</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>WOj8nPos3R9IIf0Pyttd8g</field_business_id>
+		<field_name>Lulu</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>WPV0ucYjnb2HOrNxSopv6A</field_business_id>
+		<field_name>Hawthorne's NY Pizza &amp; Bar</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>WvC9K0ZEOTbR7fh-LNe5_A</field_business_id>
+		<field_name>Famous Toastery</field_name>
+		<field_neighborhood>Sedgefield</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>x0Ec6gz07SBnWrBOQLisiA</field_business_id>
+		<field_name>Chopt Creative Salad Company</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>XagMSw5tADQbNSx0IM7TaA</field_business_id>
+		<field_name>Paper Skyscraper</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>XgRljuEUyaHBKIpIz-PRAA</field_business_id>
+		<field_name>Bang Bang Burgers</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>xkiYAerQQXL25legNhVsSw</field_business_id>
+		<field_name>Wolfgang Puck Pizza Bar</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>XlOI0qLdQch7YDAs5A011Q</field_business_id>
+		<field_name>Moo &amp; Brew</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>y1eeVRfJa22CCpUCeNfrSw</field_business_id>
+		<field_name>Basil Thai Cuisine</field_name>
+		<field_neighborhood>Fourth Ward</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>Y7lpoA_lJ1rx3NNqHMgGwA</field_business_id>
+		<field_name>Nom Nom Burger</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>YAJzBGvqT3dT_qAg6u8E1A</field_business_id>
+		<field_name>Lebowski's Neighborhood Grill</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>yesClkCZlpLGTYZROkx4SA</field_business_id>
+		<field_name>Krazy Fish</field_name>
+		<field_neighborhood>Plaza Midwood</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>yIxP32hWfZm5gyYUUh2WBA</field_business_id>
+		<field_name>Bonterra Restaurant &amp; Wine Room</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>yMopev-RPxfEXgqkJOvCGA</field_business_id>
+		<field_name>Cajun Queen</field_name>
+		<field_neighborhood>Elizabeth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>YpLGfYXBqMhPDxjuq1GZuQ</field_business_id>
+		<field_name>NoDa Brewing Company</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>yWUBX9Pe6pzh1PjVj04UmQ</field_business_id>
+		<field_name>Bad Daddy's Burger Bar</field_name>
+		<field_neighborhood>Dilworth</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>YXa0A7aXV9wWNR0qJVVSDg</field_business_id>
+		<field_name>Bad Daddy's Burger Bar</field_name>
+		<field_neighborhood>Ballantyne</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>YxwxKqemcKwV4vIQXhVv_w</field_business_id>
+		<field_name>Zablong</field_name>
+		<field_neighborhood>Uptown</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>Z4y3LZlCjv4xnZ8xOpYf_Q</field_business_id>
+		<field_name>TRUE Crafted Pizza</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>ZCsvwa_dsqNB8d8tYHPdjw</field_business_id>
+		<field_name>Sir Edmond Halley's</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>ZCXjNG1EBFiKKMtR9DOTGg</field_business_id>
+		<field_name>Thai House - University</field_name>
+		<field_neighborhood>University City</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>zFnPRtP7LGvr3sfxvy_dfg</field_business_id>
+		<field_name>Revolution Ale House</field_name>
+		<field_neighborhood>NoDa</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>ZICX0zom1rky89kdOQ-U_g</field_business_id>
+		<field_name>Harper's Restaurant</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>ZLNNXEZaCMhXuUovRTIGTw</field_business_id>
+		<field_name>Owen's Bagel &amp; Deli</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>ZlrHrg7jrbO6blqwfa0MkQ</field_business_id>
+		<field_name>Baoding</field_name>
+		<field_neighborhood>South Park</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>zMnojW6x-1-nVu0uCd60Ew</field_business_id>
+		<field_name>Whiskey Warehouse</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>_2trMwFsh5-IqqEcQ-OLVA</field_business_id>
+		<field_name>Mac's Speed Shop</field_name>
+		<field_neighborhood>Steele Creek</field_neighborhood>
+		<field_stars>3.5</field_stars>
+	</row>
+	<row>
+		<field_business_id>_5UAFrD3EDgJO1aZgRxH7w</field_business_id>
+		<field_name>Price's Chicken Coop</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4</field_stars>
+	</row>
+	<row>
+		<field_business_id>_kzB_xsb9DHUPfXB0XfQGA</field_business_id>
+		<field_name>Cantina 1511</field_name>
+		<field_neighborhood></field_neighborhood>
+		<field_stars>3</field_stars>
+	</row>
+	<row>
+		<field_business_id>_lpqjZAseSvoDxPN-_JnzQ</field_business_id>
+		<field_name>King of Pops</field_name>
+		<field_neighborhood>South End</field_neighborhood>
+		<field_stars>4.5</field_stars>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
